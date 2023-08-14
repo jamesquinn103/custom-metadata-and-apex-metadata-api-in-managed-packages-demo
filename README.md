@@ -2,7 +2,9 @@
 
 This repo documents experiments ran in August 2023 that proved: 
  1. Upgradable (Developer controlled) fields in a managed package are not updatable in a subscriber org via Apex Metadata API on any permutation of:
- *    Protected or Unprotected records on Custom Metadata Types of Global, NS, or MP scopes, in 1GP or 2GP
+    *    Protected or Unprotected records, on 
+    *    Custom Metadata Types of Global, Namespace, or Managed Package scopes, 
+    *    In 1GP or 2GP
  2. Conversely, Subscriber controlled fields in a managed package are updatable in a subscriber org via Apex Metadata API on all of the above permutations. 
  
  So the field level setting is all that matters to determine whether apex within the same managed package 
