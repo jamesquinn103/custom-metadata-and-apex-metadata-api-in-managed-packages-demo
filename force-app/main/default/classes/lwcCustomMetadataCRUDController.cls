@@ -63,12 +63,6 @@ public with sharing class lwcCustomMetadataCRUDController {
     }
 
     // ===================================================UPDATES===========================================================
-/* OBSERVATIONS:
- *  Proved: 
- *  1. Upgradable (Developer controlled) fields are not updatable via Apex Metadata API on any permutation of:
- *  Protected or Unprotected records on Custom Metadata Types of Global, NS, or MP scopes, in 1GP or 2GP
- *  2. Conversely, Subscriber controlled fields are updatable via Apex Metadata API on all of the above permutations. 
- *  So field level setting is all that matters for apex within the same managed package as the Custom Metadata types, records, and fields. */
 
     @AuraEnabled(cacheable=true)
     public static string updateGlobalCustomMetadataUnprotectedRecordSubscriberField() {
