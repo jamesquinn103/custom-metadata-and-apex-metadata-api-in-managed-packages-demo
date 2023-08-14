@@ -1,0 +1,102 @@
+<template>
+    <lightning-card
+        title="Custom Metadata update scenario tests using Apex MDAPI"
+        icon-name="custom:custom63"
+    >
+        <div class="slds-var-m-around_medium">
+            <lightning-layout
+                vertical-align="end"
+                class="slds-var-m-bottom_small"
+                ><lightning-layout-item class="slds-var-p-left_xx-small">
+                    <lightning-button
+                        label="Get All CMT Values"
+                        onclick={handleGetCMT}
+                    ></lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+            <p>{globalCMTsubUnprotected}</p>
+            <p>{globalCMTdevUnprotected}</p>
+            <p>{globalCMTsubProtected}</p>
+            <p>{globalCMTdevProtected}</p>
+            <p>{nsCMTsubUnprotected}</p>
+            <p>{nsCMTdevUnprotected}</p>
+            <p>{nsCMTsubProtected}</p>
+            <p>{nsCMTdevProtected}</p>
+            <p>{mpCMTupgProtected}</p>
+            <p>{mpCMTsubProtected}</p>
+            <p>{mpCMTupgUnprotected}</p>
+            <p>{mpCMTsubUnprotected}</p>
+            <lightning-button
+                label="Update global, sub-controlled, unprotected CMT"
+                onclick={handleUpdateGlobalCMTUS}
+            ></lightning-button>
+            <p>{updatedGlobalCMTsubUnprotected}</p>
+
+            <lightning-button
+                label="Update global, dev-controlled, unprotected CMT"
+                onclick={handleUpdateGlobalCMTUD}
+            ></lightning-button>
+            <p>{updatedGlobalCMTdevUnprotected}</p>
+
+            <lightning-button
+                label="Update global, sub-controlled, protected CMT"
+                onclick={handleUpdateGlobalCMTPS}
+            ></lightning-button>
+            <p>{updatedGlobalCMTsubProtected}</p>
+
+            <lightning-button
+                label="Update global, dev-controlled, protected CMT"
+                onclick={handleUpdateGlobalCMTPD}
+            ></lightning-button>
+            <p>{updatedGlobalCMTdevProtected}</p>
+
+            <lightning-button
+                label="Update namespace scoped, sub-controlled, unprotected CMT"
+                onclick={handleUpdateNsCMTUS}
+            ></lightning-button>
+            <p>{updatedNsCMTsubUnprotected}</p>
+
+            <lightning-button
+                label="Update namespace scoped, dev-controlled, unprotected CMT"
+                onclick={handleUpdateNsCMTUD}
+            ></lightning-button>
+            <p>{updatedNsCMTdevUnprotected}</p>
+
+            <lightning-button
+                label="Update namespace scoped, sub-controlled, protected CMT"
+                onclick={handleUpdateNsCMTPS}
+            ></lightning-button>
+            <p>{updatedNsCMTsubProtected}</p>
+
+            <lightning-button
+                label="Update namespace scoped, dev-controlled, protected CMT"
+                onclick={handleUpdateNsCMTPD}
+            ></lightning-button>
+            <p>{updatedNsCMTdevProtected}</p>
+
+            <lightning-button
+                label="Update managed package scoped, dev-controlled, protected CMT"
+                onclick={handleUpdateMpCMTPD}
+            ></lightning-button>
+            <p>{updatedMpCMTupgProtected}</p>
+            
+            <lightning-button
+                label="Update managed package scoped, sub-controlled, protected CMT"
+                onclick={handleUpdateMpCMTPS}
+            ></lightning-button>
+            <p>{updatedMpCMTsubProtected}</p>
+
+            <lightning-button
+                label="Update managed package scoped, dev-controlled, unprotected CMT"
+                onclick={handleUpdateMpCMTUD}
+            ></lightning-button>
+            <p>{updatedMpCMTupgUnprotected}</p>
+
+            <lightning-button
+                label="Update managed package scoped, sub-controlled, unprotected CMT"
+                onclick={handleUpdateMpCMTUS}
+            ></lightning-button>
+            <p>{updatedMpCMTsubUnprotected}</p>
+        </div>
+    </lightning-card>
+</template>

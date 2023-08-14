@@ -1,0 +1,37 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "2gp cmt fun",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.17.0.NEXT",
+      "versionDescription": "",
+      "ancestorVersion": "HIGHEST"
+    }
+  ],
+  "name": "custom-metadata-lab",
+  "namespace": "my_1gp_fun",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "2gp cmt fun": "0Ho8c000000oLxQCAU",
+    "2gp cmt fun@0.1.0-1": "04t8c000001AYkZAAW",
+    "2gp cmt fun@0.2.0-1": "04t8c000001AYkeAAG",
+    "2gp cmt fun@0.3.0-1": "04t8c000001AYkjAAG",
+    "2gp cmt fun@0.4.0-1": "04t8c000001AYl8AAG",
+    "2gp cmt fun@0.5.0-1": "04t8c000001AYlSAAW",
+    "2gp cmt fun@0.6.0-1": "04t8c000001AYlcAAG",
+    "2gp cmt fun@0.7.0-1": "04t8c000001AYlhAAG",
+    "2gp cmt fun@0.8.0-1": "04t8c000001AYlmAAG",
+    "2gp cmt fun@0.9.0-1": "04t8c000001AYlrAAG",
+    "2gp cmt fun@0.10.0-1": "04t8c000001AYlwAAG",
+    "2gp cmt fun@0.11.0-1": "04t8c000001AYm1AAG",
+    "2gp cmt fun@0.12.0-1": "04t8c000001AYm6AAG",
+    "2gp cmt fun@0.13.0-1": "04t8c000001AYmBAAW",
+    "2gp cmt fun@0.14.0-1": "04t8c000001AYmGAAW",
+    "2gp cmt fun@0.15.0-1": "04t8c000001AYmLAAW",
+    "2gp cmt fun@0.16.0-1": "04t8c000001AYmQAAW",
+    "2gp cmt fun@0.17.0-1": "04t8c000001AYmVAAW"
+  }
+}
