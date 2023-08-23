@@ -5,7 +5,7 @@ This repo documents experiments ran in August 2023 that proved:
     *    Protected or Unprotected records, on 
     *    Custom Metadata Types of Global, Namespace, or Managed Package scopes, 
     *    In 1GP or 2GP
- 2. Conversely, Subscriber controlled fields in a managed package are updatable in a subscriber org via Apex Metadata API on all of the above permutations. 
+ 2. Conversely, Subscriber controlled fields in a managed package are updatable in a subscriber org via Apex Metadata API on all of the above permutations (using Apex code in the same package). 
  
  So the field level setting is all that matters to determine whether apex within the same managed package 
  as the Custom Metadata types, records, and fields, will be able to update Custom Metadata record fields via Apex Metadata API.
