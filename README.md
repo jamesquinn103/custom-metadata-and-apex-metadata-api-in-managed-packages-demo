@@ -1,4 +1,4 @@
-# Custom Metadata - proving behavior in managed packages
+# Custom Metadata - proving read and write behavior in managed packages
 
 This repo documents experiments ran in August 2023 that proved: 
  1. Upgradable (Developer controlled) fields in a managed package are not updatable in a subscriber org via Apex Metadata API on any permutation of:
@@ -9,6 +9,9 @@ This repo documents experiments ran in August 2023 that proved:
  
  So the field level setting is all that matters to determine whether apex within the same managed package 
  as the Custom Metadata types, records, and fields, will be able to update Custom Metadata record fields via Apex Metadata API.
+
+
+
 
 
 
