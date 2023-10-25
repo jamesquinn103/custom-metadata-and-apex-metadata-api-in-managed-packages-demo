@@ -10,8 +10,9 @@ This repo documents experiments ran in August 2023 that proved:
  So the field level setting is all that matters to determine whether apex within the same managed package 
  as the Custom Metadata types, records, and fields, will be able to update Custom Metadata record fields via Apex Metadata API.
 
-
-
+Here is an accompanying visual that is mostly still correct. The above findings are the source of truth over this diagram when they differ.
+<img width="1408" alt="image" src="https://github.com/jamesquinn103/custom-metadata-and-apex-metadata-api-in-managed-packages-demo/assets/39100635/9b894a5e-9c5d-4317-80e1-a87b5583b2c8">
+This image comes from [this video](https://www.youtube.com/watch?v=nlqFB89DhfI) from Dreamforce 2018 by the Salesforce.org team.
 
 
 
